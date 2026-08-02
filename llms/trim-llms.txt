@@ -1,0 +1,22 @@
+# Trim
+
+> Trim is a consumer fintech company (founded 2015, backed by Version One Ventures) whose automated personal finance assistant finds and cancels unwanted subscriptions, negotiates bills, and automates savings. Trim was acquired by OneMain Financial and the product now lives on as OneMain MyMoney (asktrim.com redirects to onemainmymoney.com). Trim/MyMoney is a consumer application with no public developer API.
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + live probes of www.asktrim.com / www.onemainmymoney.com -->
+
+## Company
+
+- [OneMain MyMoney (formerly Trim)](https://www.onemainmymoney.com/): Personalized money insights, expense tracking, and subscription management.
+- [Sign up](https://go.onemainmymoney.com/users/sign_up): Create a MyMoney account.
+- [Support](https://onemainmymoney.zendesk.com/): MyMoney help center (Zendesk).
+- [Press](https://www.onemainmymoney.com/press/): Press coverage of Trim.
+- [GitHub organization](https://github.com/asktrim): Public repos are forks and internal tooling; no published SDKs or API specifications.
+
+## Legal
+
+- [Terms of Service](https://www.onemainmymoney.com/tos/)
+- [Privacy Policy](https://www.onemainfinancial.com/legal/privacy-policy)
+
+## APIs
+
+- None. Trim/OneMain MyMoney publishes no public developer API, API documentation, or developer portal (verified 2026-07-21: no api./developer./docs. hosts resolve on asktrim.com or onemainmymoney.com; /.well-known/ discovery documents return 404).

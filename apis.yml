@@ -1,22 +1,71 @@
 aid: trim
 name: Trim
-description: 'Trim is a company surfaced as a portfolio company of version-one-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Trim is a consumer fintech company founded in 2015 that built an automated
+  personal finance assistant which finds and cancels unwanted subscriptions,
+  negotiates bills such as cable and internet, and automates savings for its
+  users. Trim was backed by Version One Ventures and was acquired by OneMain
+  Financial; its former asktrim.com home now redirects to OneMain MyMoney
+  (onemainmymoney.com), where the product lives on as a personalized money
+  insights and expense tracking app. Trim/MyMoney is a consumer application and
+  does not publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/trim/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - version-one-ventures
+x-status: acquired
+x-acquired-by: OneMain Financial (product rebranded OneMain MyMoney; asktrim.com 301s to onemainmymoney.com)
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://avatars.githubusercontent.com/u/20236547
 tags:
 - Company
 - Fintech
+- Personal Finance
+- Subscription Management
+- Bill Negotiation
+- Savings
+- Consumer Finance
 apis: []
+common:
+- type: DomainSecurity
+  url: security/trim-domain-security.yml
+- type: Website
+  url: https://www.onemainmymoney.com/
+- type: Support
+  url: https://onemainmymoney.zendesk.com/
+- type: SignUp
+  url: https://go.onemainmymoney.com/users/sign_up
+- type: Login
+  url: https://go.onemainmymoney.com/users/sign_in
+- type: TermsOfService
+  url: https://www.onemainmymoney.com/tos/
+- type: PrivacyPolicy
+  url: https://www.onemainfinancial.com/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/asktrim
+- type: LLMsTxt
+  url: llms/trim-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

@@ -1,0 +1,34 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTPS probes of /.well-known/ on Trim hosts
+note: >-
+  No /.well-known/ discovery documents are published. www.asktrim.com and
+  asktrim.com 301-redirect every path to https://www.onemainmymoney.com/
+  (Trim was acquired by OneMain Financial and rebranded OneMain MyMoney).
+  All probes on the live host returned 404. No raw files saved (nothing
+  returned 200), so no WellKnown/SecurityTxt pointers are wired in apis.yml.
+hosts:
+- host: https://www.onemainmymoney.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://www.asktrim.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+  - path: /.well-known/openid-configuration
+    status: 301
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+  - path: /.well-known/api-catalog
+    status: 301
+  - path: /.well-known/ai-plugin.json
+    status: 301
